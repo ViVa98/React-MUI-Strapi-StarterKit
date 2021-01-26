@@ -91,6 +91,7 @@ export default function Login() {
 
   useEffect(() => {
     function redirect() {
+      // Use your authenticated role name instead of "Admin"
       if (admin === "Admin") {
         history.push("/dashboard");
       }
